@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7149776729F6EA500003598B /* Eco_FindersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7149776629F6EA500003598B /* Eco_FindersApp.swift */; };
+		7149776929F6EA500003598B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7149776829F6EA500003598B /* ContentView.swift */; };
+		7149776B29F6EA520003598B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7149776A29F6EA520003598B /* Assets.xcassets */; };
+		7149776E29F6EA520003598B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7149776D29F6EA520003598B /* Preview Assets.xcassets */; };
+		7149777929F6EA520003598B /* Eco_FindersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7149777829F6EA520003598B /* Eco_FindersTests.swift */; };
+		7149778329F6EA520003598B /* Eco_FindersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7149778229F6EA520003598B /* Eco_FindersUITests.swift */; };
+		7149778529F6EA520003598B /* Eco_FindersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7149778429F6EA520003598B /* Eco_FindersUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7149777529F6EA520003598B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7149775B29F6EA500003598B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7149776229F6EA500003598B;
+			remoteInfo = "Eco Finders";
+		};
+		7149777F29F6EA520003598B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7149775B29F6EA500003598B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7149776229F6EA500003598B;
+			remoteInfo = "Eco Finders";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7149776329F6EA500003598B /* Eco Finders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eco Finders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7149776629F6EA500003598B /* Eco_FindersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eco_FindersApp.swift; sourceTree = "<group>"; };
+		7149776829F6EA500003598B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7149776A29F6EA520003598B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7149776D29F6EA520003598B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7149776F29F6EA520003598B /* Eco_Finders.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Eco_Finders.entitlements; sourceTree = "<group>"; };
+		7149777429F6EA520003598B /* Eco FindersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eco FindersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7149777829F6EA520003598B /* Eco_FindersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eco_FindersTests.swift; sourceTree = "<group>"; };
+		7149777E29F6EA520003598B /* Eco FindersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eco FindersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7149778229F6EA520003598B /* Eco_FindersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eco_FindersUITests.swift; sourceTree = "<group>"; };
+		7149778429F6EA520003598B /* Eco_FindersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eco_FindersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7149776029F6EA500003598B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7149777129F6EA520003598B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7149777B29F6EA520003598B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7149775A29F6EA500003598B = {
+			isa = PBXGroup;
+			children = (
+				7149776529F6EA500003598B /* Eco Finders */,
+				7149777729F6EA520003598B /* Eco FindersTests */,
+				7149778129F6EA520003598B /* Eco FindersUITests */,
+				7149776429F6EA500003598B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7149776429F6EA500003598B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7149776329F6EA500003598B /* Eco Finders.app */,
+				7149777429F6EA520003598B /* Eco FindersTests.xctest */,
+				7149777E29F6EA520003598B /* Eco FindersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7149776529F6EA500003598B /* Eco Finders */ = {
+			isa = PBXGroup;
+			children = (
+				7149776629F6EA500003598B /* Eco_FindersApp.swift */,
+				7149776829F6EA500003598B /* ContentView.swift */,
+				7149776A29F6EA520003598B /* Assets.xcassets */,
+				7149776F29F6EA520003598B /* Eco_Finders.entitlements */,
+				7149776C29F6EA520003598B /* Preview Content */,
+			);
+			path = "Eco Finders";
+			sourceTree = "<group>";
+		};
+		7149776C29F6EA520003598B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7149776D29F6EA520003598B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7149777729F6EA520003598B /* Eco FindersTests */ = {
+			isa = PBXGroup;
+			children = (
+				7149777829F6EA520003598B /* Eco_FindersTests.swift */,
+			);
+			path = "Eco FindersTests";
+			sourceTree = "<group>";
+		};
+		7149778129F6EA520003598B /* Eco FindersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7149778229F6EA520003598B /* Eco_FindersUITests.swift */,
+				7149778429F6EA520003598B /* Eco_FindersUITestsLaunchTests.swift */,
+			);
+			path = "Eco FindersUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7149776229F6EA500003598B /* Eco Finders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7149778829F6EA520003598B /* Build configuration list for PBXNativeTarget "Eco Finders" */;
+			buildPhases = (
+				7149775F29F6EA500003598B /* Sources */,
+				7149776029F6EA500003598B /* Frameworks */,
+				7149776129F6EA500003598B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eco Finders";
+			productName = "Eco Finders";
+			productReference = 7149776329F6EA500003598B /* Eco Finders.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7149777329F6EA520003598B /* Eco FindersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7149778B29F6EA520003598B /* Build configuration list for PBXNativeTarget "Eco FindersTests" */;
+			buildPhases = (
+				7149777029F6EA520003598B /* Sources */,
+				7149777129F6EA520003598B /* Frameworks */,
+				7149777229F6EA520003598B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7149777629F6EA520003598B /* PBXTargetDependency */,
+			);
+			name = "Eco FindersTests";
+			productName = "Eco FindersTests";
+			productReference = 7149777429F6EA520003598B /* Eco FindersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7149777D29F6EA520003598B /* Eco FindersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7149778E29F6EA520003598B /* Build configuration list for PBXNativeTarget "Eco FindersUITests" */;
+			buildPhases = (
+				7149777A29F6EA520003598B /* Sources */,
+				7149777B29F6EA520003598B /* Frameworks */,
+				7149777C29F6EA520003598B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7149778029F6EA520003598B /* PBXTargetDependency */,
+			);
+			name = "Eco FindersUITests";
+			productName = "Eco FindersUITests";
+			productReference = 7149777E29F6EA520003598B /* Eco FindersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7149775B29F6EA500003598B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					7149776229F6EA500003598B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					7149777329F6EA520003598B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7149776229F6EA500003598B;
+					};
+					7149777D29F6EA520003598B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7149776229F6EA500003598B;
+					};
+				};
+			};
+			buildConfigurationList = 7149775E29F6EA500003598B /* Build configuration list for PBXProject "Eco Finders" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7149775A29F6EA500003598B;
+			productRefGroup = 7149776429F6EA500003598B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7149776229F6EA500003598B /* Eco Finders */,
+				7149777329F6EA520003598B /* Eco FindersTests */,
+				7149777D29F6EA520003598B /* Eco FindersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7149776129F6EA500003598B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7149776E29F6EA520003598B /* Preview Assets.xcassets in Resources */,
+				7149776B29F6EA520003598B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7149777229F6EA520003598B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7149777C29F6EA520003598B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7149775F29F6EA500003598B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7149776929F6EA500003598B /* ContentView.swift in Sources */,
+				7149776729F6EA500003598B /* Eco_FindersApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7149777029F6EA520003598B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7149777929F6EA520003598B /* Eco_FindersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7149777A29F6EA520003598B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7149778529F6EA520003598B /* Eco_FindersUITestsLaunchTests.swift in Sources */,
+				7149778329F6EA520003598B /* Eco_FindersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7149777629F6EA520003598B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7149776229F6EA500003598B /* Eco Finders */;
+			targetProxy = 7149777529F6EA520003598B /* PBXContainerItemProxy */;
+		};
+		7149778029F6EA520003598B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7149776229F6EA500003598B /* Eco Finders */;
+			targetProxy = 7149777F29F6EA520003598B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7149778629F6EA520003598B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7149778729F6EA520003598B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7149778929F6EA520003598B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Eco Finders/Eco_Finders.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Eco Finders/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ioslab.Eco-Finders";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7149778A29F6EA520003598B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Eco Finders/Eco_Finders.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Eco Finders/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ioslab.Eco-Finders";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7149778C29F6EA520003598B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ioslab.Eco-FindersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eco Finders.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Eco Finders";
+			};
+			name = Debug;
+		};
+		7149778D29F6EA520003598B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ioslab.Eco-FindersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eco Finders.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Eco Finders";
+			};
+			name = Release;
+		};
+		7149778F29F6EA520003598B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ioslab.Eco-FindersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Eco Finders";
+			};
+			name = Debug;
+		};
+		7149779029F6EA520003598B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ioslab.Eco-FindersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Eco Finders";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7149775E29F6EA500003598B /* Build configuration list for PBXProject "Eco Finders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7149778629F6EA520003598B /* Debug */,
+				7149778729F6EA520003598B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7149778829F6EA520003598B /* Build configuration list for PBXNativeTarget "Eco Finders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7149778929F6EA520003598B /* Debug */,
+				7149778A29F6EA520003598B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7149778B29F6EA520003598B /* Build configuration list for PBXNativeTarget "Eco FindersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7149778C29F6EA520003598B /* Debug */,
+				7149778D29F6EA520003598B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7149778E29F6EA520003598B /* Build configuration list for PBXNativeTarget "Eco FindersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7149778F29F6EA520003598B /* Debug */,
+				7149779029F6EA520003598B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7149775B29F6EA500003598B /* Project object */;
+}
