@@ -78,17 +78,22 @@ import SwiftUI
                         .resizable(resizingMode: .stretch)
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 50, height: 100)
+                    NavigationLink("Perfil", destination: Perfil_voluntario())
+                        .foregroundColor(/*@START_MENU_TOKEN@*/Color(red: 0.23137254901960785, green: 0.3764705882352941, blue: 0.1411764705882353)/*@END_MENU_TOKEN@*/)
                         Spacer()
                     Image("mas")
                         .resizable(resizingMode: .stretch)
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 50, height: 100)
+                    
+                    Text("Mas")
                     Spacer()
                     Image("home")
                         .resizable(resizingMode: .stretch)
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 50, height: 100)
                     Spacer()
+
 
                 }
             }

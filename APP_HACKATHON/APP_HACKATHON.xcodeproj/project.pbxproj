@@ -13,6 +13,7 @@
 		B095044A29F8462500D5C80C /* Searchbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B095044929F8462500D5C80C /* Searchbar.swift */; };
 		B095045029F8602E00D5C80C /* Form_voluntario.swift in Sources */ = {isa = PBXBuildFile; fileRef = B095044F29F8602E00D5C80C /* Form_voluntario.swift */; };
 		B095045229F8619900D5C80C /* Form_Reclutador.swift in Sources */ = {isa = PBXBuildFile; fileRef = B095045129F8619900D5C80C /* Form_Reclutador.swift */; };
+		B095045429F871F400D5C80C /* Perfil_voluntario.swift in Sources */ = {isa = PBXBuildFile; fileRef = B095045329F871F400D5C80C /* Perfil_voluntario.swift */; };
 		B0DB167329F6E69F0035BBAF /* APP_HACKATHONApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DB167229F6E69F0035BBAF /* APP_HACKATHONApp.swift */; };
 		B0DB167529F6E69F0035BBAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DB167429F6E69F0035BBAF /* ContentView.swift */; };
 		B0DB167729F6E6A10035BBAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0DB167629F6E6A10035BBAF /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		B095044929F8462500D5C80C /* Searchbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searchbar.swift; sourceTree = "<group>"; };
 		B095044F29F8602E00D5C80C /* Form_voluntario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form_voluntario.swift; sourceTree = "<group>"; };
 		B095045129F8619900D5C80C /* Form_Reclutador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form_Reclutador.swift; sourceTree = "<group>"; };
+		B095045329F871F400D5C80C /* Perfil_voluntario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perfil_voluntario.swift; sourceTree = "<group>"; };
 		B0DB166F29F6E69F0035BBAF /* APP_HACKATHON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APP_HACKATHON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0DB167229F6E69F0035BBAF /* APP_HACKATHONApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APP_HACKATHONApp.swift; sourceTree = "<group>"; };
 		B0DB167429F6E69F0035BBAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				B095044029F7412300D5C80C /* SwiftUIViewSignin.swift */,
 				B095045129F8619900D5C80C /* Form_Reclutador.swift */,
 				B095044929F8462500D5C80C /* Searchbar.swift */,
+				B095045329F871F400D5C80C /* Perfil_voluntario.swift */,
 				B0DB167629F6E6A10035BBAF /* Assets.xcassets */,
 				B0DB167829F6E6A10035BBAF /* Preview Content */,
 			);
@@ -282,6 +285,7 @@
 				B095044A29F8462500D5C80C /* Searchbar.swift in Sources */,
 				B0DB167329F6E69F0035BBAF /* APP_HACKATHONApp.swift in Sources */,
 				B095044329F747E400D5C80C /* SwiftUIViewSignIn2.swift in Sources */,
+				B095045429F871F400D5C80C /* Perfil_voluntario.swift in Sources */,
 				B095045029F8602E00D5C80C /* Form_voluntario.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
