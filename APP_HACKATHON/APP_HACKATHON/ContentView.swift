@@ -14,7 +14,7 @@ struct ContentView: View {
             VStack{
                 
                 
-                Text("EcoFinders")
+                Text("Eco Finders")
                     .font(.largeTitle)
                     .fontWeight(.black)
                     .foregroundColor(Color(.black))
@@ -23,11 +23,11 @@ struct ContentView: View {
                 
                 Spacer()
                 
-                Image("Recurso 2")
+                Image("Recurso 14")
                     .aspectRatio(contentMode: .fit)
                 Spacer()
                 
-                NavigationLink("Log in", destination: SwiftUIViewLogin())
+                NavigationLink("Log in", destination: Login())
                     
                     .foregroundColor(.white)
                     .frame(width: 300, height:50)

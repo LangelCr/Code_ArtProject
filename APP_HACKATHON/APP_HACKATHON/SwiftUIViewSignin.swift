@@ -31,6 +31,7 @@ struct SwiftUIViewSignin: View {
             
            
             VStack{
+                
                 Text("Que tipo de usuario eres?")
                     .font(.title)
                     .fontWeight(.bold)
@@ -42,11 +43,16 @@ struct SwiftUIViewSignin: View {
 
                 Image("Recurso 10")
                     .frame(width: 200.0, height: 200)
-                NavigationLink("Voluntario", destination: SwiftUIViewSignIn2())
+                NavigationLink("Voluntario", destination: Form_voluntario())
                     .foregroundColor(.white)
                 
                 
                 Image("Recurso 11")
+                    .frame(width: 200.0, height: 200)
+                NavigationLink("Reclutador", destination: Form_Reclutador())
+                    .foregroundColor(.white)
+
+                
                 
             }
             
@@ -65,3 +71,4 @@ struct SwiftUIViewSignin_Previews: PreviewProvider {
         SwiftUIViewSignin()
     }
 }
+
